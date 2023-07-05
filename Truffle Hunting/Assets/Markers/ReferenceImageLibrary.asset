@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 5080691416164594033
-  m_GuidHigh: 15443687267607678868
+  m_GuidLow: 5143016726218711609
+  m_GuidHigh: 996171584123165065
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5735043264534888158
-      m_GuidHigh: 16049596843838290571
+      m_GuidLow: 5168321300026913810
+      m_GuidHigh: 12006157038538780585
     m_SerializedTextureGuid:
-      m_GuidLow: 4711916501246862753
-      m_GuidHigh: 13704363768533677336
+      m_GuidLow: 17993109229685605102
+      m_GuidHigh: 5724591378300010745
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: MarkerIcons02
+    m_Name: MarkerIcons01
     m_Texture: {fileID: 0}

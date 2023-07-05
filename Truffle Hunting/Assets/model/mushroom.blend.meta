@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 633b908c357559d4ba7bba3dbe337431
+guid: 4fbb61a8ceae6f440881434e411572d2
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mushroom_base
+    second: {fileID: 2100000, guid: 7539956178e07774aada43ef5c488272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mushroom_border
+    second: {fileID: 2100000, guid: 3dee334640165c04fb3c9a94121c08b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mushroom_top
+    second: {fileID: 2100000, guid: b9c3b3e23ac310f49968af09b33f7878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mushroom_top_inside.001
+    second: {fileID: 2100000, guid: 6d8653d33adac0346b484dae6daf6f91, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -99,7 +119,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
