@@ -26,7 +26,7 @@ public class ImageTracking : MonoBehaviour
         // Pre-spawn one of each placeable prefabs
         foreach(GameObject prefab in placeablePrefabs)
         {
-            // Vector3.zero ... stars out hidden, Quaternion.identity ... default rotation
+            // Vector3.zero ... starts out hidden, Quaternion.identity ... default rotation
             GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             // Make sure name is correctly stored
             newPrefab.name = prefab.name;
@@ -44,7 +44,7 @@ public class ImageTracking : MonoBehaviour
         trackedImageManager.trackedImagesChanged -= ImageChanged;
     }
 
-    // Manages images
+    // Manages models
     private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
         foreach(ARTrackedImage trackedImage in eventArgs.added)
@@ -59,12 +59,12 @@ public class ImageTracking : MonoBehaviour
 
         foreach(ARTrackedImage trackedImage in eventArgs.removed)
         {
-            // Disable images
+            // Disable model
             spawnedPrefabs[trackedImage.name].SetActive(false);
         }
     }
 
-    // Shows image
+    // Shows model
     private void UpdateImage(ARTrackedImage trackedImage)
     {
         string name = trackedImage.referenceImage.name;
@@ -72,9 +72,17 @@ public class ImageTracking : MonoBehaviour
 
         GameObject prefab = spawnedPrefabs[name];
         prefab.transform.position = position;
+
+
+        // Brown mushroom model is sideways --> rotate
+        if (name == "mushroom_brown")
+        {
+            prefab.transform.localEulerAngles = new Vector3(-90, 0, 0);
+        }
+
         prefab.SetActive(true);
 
-        // Hides other images when looking at new one
+        // Hides other model when looking at new one
         foreach (GameObject go in spawnedPrefabs.Values)
         {
             if(go.name != name)
