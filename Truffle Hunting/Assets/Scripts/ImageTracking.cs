@@ -82,6 +82,7 @@ public class ImageTracking : MonoBehaviour
 
         prefab.SetActive(true);
 
+        /*
         // Hides other model when looking at new one
         foreach (GameObject go in spawnedPrefabs.Values)
         {
@@ -90,5 +91,6 @@ public class ImageTracking : MonoBehaviour
                 go.SetActive(false);
             }
         }
+        */
     }
 }
