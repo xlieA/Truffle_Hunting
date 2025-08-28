@@ -2,7 +2,7 @@
 
 Truffle Hunters is a locationed-based AR game featuring real-time deep-learning visual effects. It enables you to explore the real world like never before with our interactive map. All you need is your phone. Uncover hidden treasures of magic truffles in your surroundings. Dive into the mysterious truffle-sphere. Collect truffles, trade your treasures, get better tools and improve your skills. And most importantly of all, create unforgettable memories with your fellow hunters through your journey in a world hidden from most.
 
-[![Watch the video](https://img.youtube.com/vi/hGu2toeCQzM/maxresdefault.jpg)](https://youtu.be/hGu2toeCQzM)
+[![Watch the video](TruffleHunters.png)](https://youtu.be/hGu2toeCQzM)
 
 We are a truffle trading company, and we have a job for you!
 
